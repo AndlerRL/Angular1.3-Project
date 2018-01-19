@@ -1,0 +1,29 @@
+{
+	"id": "DEP-003",
+	"model": "GSX R 250 R",
+	"fabriquer": "Suzuki",
+	"country": "Japón",
+	"year": "2017",
+	"category": "Moto Cubierta",
+	"description": "La Suzuki GSX R 250 R comparte motor y soluciones técnicas que la V Strom 250. Se trata de la versión deportiva de la misma moto que, a pesar de su R final, está pensada para un alto rango de conductores que quieran dar el paso a su primera moto grande. El motor está orientado a ofrecer su mejor cara en la zona baja y media del cuentarrevoluciones, en una orientación diferente de lo que plantea por ejemplo Honda con la CBR 250 RR o Kawasaki con la nueva Ninja 250.",
+	"images": [
+		"img/bikes/Suzuki-deportivas1.jpg",
+		"img/bikes/Suzuki-deportivas2.jpg",
+		"img/bikes/Suzuki-deportivas3.jpeg"
+	],
+	"engine": {
+		"type": "Singular 4-Tiempos",
+		"details": "Cilindro Horizontal de Inyección",
+		"cylinder": "248.0cc",
+		"transmission": "Cadena Sellada",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1110mm (h)",
+			"2085mm (l)",
+			"740mm (w)"
+		],
+		"weight": "181.0kg"
+	}
+}

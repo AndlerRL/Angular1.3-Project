@@ -1,0 +1,30 @@
+{
+	"id": "DEP-001",
+	"model": "Ninja 300",
+	"fabriquer": "Kawasaki",
+	"country": "Japón",
+	"year": "2017",
+	"category": "Moto Cubierta",
+	"description": "La pequeña sport de Kawasaki viene a ser la evolución de la Ninja 250 R, que se quita la careta de utilitaria con chispa deportiva para descubrir su auténtico carácter Ninja con una espectacular puesta en escena. Chasis, motor, diseño, todo es nuevo para esta pequeña Ninja. El propulsor sube unos 50 cc y paralelamente 6 CV de máxima potencia, el bastidor tubular también es de nueva factura y ofrecerá un tacto más deportivo, y el neumático trasero crece en anchura de 130 a 140 mm.",
+	"images": [
+		"img/bikes/Kawasaki-deportivas1.jpg",
+		"img/bikes/Kawasaki-deportivas2.jpg",
+		"img/bikes/Kawasaki-deportivas3.jpg"
+	],
+	"engine": {
+		"type": "Bicilíndrica 6-Tiempos",
+		"details": "Horizontal Cylinder",
+		"cylinder": "296.0cc",
+		"transmission": "Cadena Sellada",
+		"starter": "Digital"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1110mm (h)",
+			"2015mm (l)",
+			"715mm (w)"
+		],
+		"weight": "172.0kg"
+	}
+
+}

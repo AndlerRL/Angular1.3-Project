@@ -1,0 +1,98 @@
+[
+	{
+		"type": "Custom",
+		"id": "CUS-001",
+		"model": "Chief Classic",
+		"fabriquer": "Indian",
+		"country": "Estados Unidos",
+		"year": "2017",
+		"category": "Moto Cubierta",
+		"snippet": "Una moto impactante que mezcla la tradición de la marca con la nueva tecnología de nuestros días convirtiéndolo en la combinación ideal.",
+		"imageUrl": "img/bikes/CUS-001.jpg"
+	},{
+		"type": "Custom",
+		"id": "CUS-002",
+		"model": "Judge",
+		"fabriquer": "Victory",
+		"country": "Estados Unidos",
+		"year": "2013",
+		"category": "Moto Cubierta",
+		"snippet": "Si eres un amante de las motos, situándote en los mandos de esta motocicleta norteamericana te sentirás como si rozaras el asfalto.",
+		"imageUrl": "img/bikes/CUS-002.jpg"
+	},{
+		"type": "Custom",
+		"id": "CUS-003",
+		"model": "Intruder C 1800 R",
+		"fabriquer": "Suzuki",
+		"country": "Japón",
+		"year": "2015",
+		"category": "Moto Cubierta",
+		"snippet": "La moto custom Suzuki Intruder, es una delicia para los amantes de las cruiser de grandes dimensiones con una estética clásica.",
+		"imageUrl": "img/bikes/CUS-003.jpg"
+	},
+
+
+	{
+		"type": "Deportiva",
+		"id": "DEP-001",
+		"model": "Ninja 300",
+		"fabriquer": "Kawasaki",
+		"country": "Japón",
+		"year": "2017",
+		"category": "Moto Cubierta",
+		"snippet": "Siendo la evolución de la Ninja 250 R, que quita la careta de utilitaria con chispa deportiva para descubrir su auténtico carácter Ninja con espectacular escena.",
+		"imageUrl": "img/bikes/DEP-001.jpg"
+	},{
+		"type": "Deportiva",
+		"id": "DEP-002",
+		"model": "CBR 250 RR",
+		"fabriquer": "Honda",
+		"country": "Korea del Sur",
+		"year": "2017",
+		"category": "Moto Cubierta",
+		"snippet": "La moto es muy deportiva y marcará toda una referencia en el segmento, rivalizando por ejemplo con la Kawasaki Ninja 250.",
+		"imageUrl": "img/bikes/DEP-002.jpg"
+	},{
+		"type": "Deportiva",
+		"id": "DEP-003",
+		"model": "GSX R 250 R",
+		"fabriquer": "Suzuki",
+		"country": "Japón",
+		"year": "2017",
+		"category": "Moto Cubierta",
+		"snippet": "Cómo la V Strom 250, esta es la versión deportiva de la misma moto que, a pesar de su R final, está pensada para un alto rango de conductores que quieran dar el paso a su primera moto grande.",
+		"imageUrl": "img/bikes/DEP-003.jpg"
+	},
+
+
+	{
+		"type": "Urbana",
+		"id": "URB-001",
+		"model": "BN 302",
+		"fabriquer": "Benelli",
+		"country": "Italia",
+		"year": "2016",
+		"category": "Moto Desnuda",
+		"snippet": "El fácil de montar carácter y el frenado seguro, hace que esta la moto perfecta para un viaje diario, comprimir a través de la ciudad y fuera de la ciudad gira.",
+		"imageUrl": "img/bikes/URB-001.jpg"
+	},{
+		"type": "Urbana",
+		"id": "URB-002",
+		"model": "Scrambler Sixty2",
+		"fabriquer": "Ducati",
+		"country": "Italia",
+		"year": "2014",
+		"category": "Moto Desnuda",
+		"snippet": "Una moto fácil de manejar y económica, pero sin perder el espíritu único Scrambler, eso es lo que presenta Ducati con su nueva Scrambler Sixty 2. El diseño de esta nueva moto destaca por su depósito en acero con gráficos y logotipos exclusivos.",
+		"imageUrl": "img/bikes/URB-002.jpg"
+	},{
+		"type": "Urbana",
+		"id": "URB-003",
+		"model": "Versys-X 300",
+		"fabriquer": "Kawasaki",
+		"country": "Japón",
+		"year": "2014",
+		"snippet": "Kawasaki ha añadido una versión más equipada de su Versys más pequeña. Los componentes añadidos en esta Versys-X 300 Urban son el baúl de 30 litros de capacidad, los cubremanos, el caballete central y el protector del depósito de gasolina.",
+		"imageUrl": "img/bikes/URB-003.jpg"
+	}
+]

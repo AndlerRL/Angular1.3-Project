@@ -1,0 +1,30 @@
+{
+	"id": "CUS-002",
+	"model": "Judge",
+	"fabriquer": "Victory",
+	"country": "Estados Unidos",
+	"year": "2013",
+	"category": "Moto Cubierta",
+	"description": "La firma de Victory Motorcycles sacó a la luz la atractiva moto custom Judge en 2013, evocando la pasión de los muscle car y el american power. En este nuevo diseño, la marca prescinde de ls forma anguloso de la carrocería para convertirla en un diseño con curvas de inspiración bober.  Su depósito de gasolina es la novedad que marca la diferencia con otros modelos de la firma, ya que caben hasta 17 litros. Si eres un amante de las motos, situándote en los mandos de esta motocicleta norteamericana te sentirás como si rozaras el asfalto.",
+	"images": [
+		"img/bikes/Victory-customs1.jpg",
+		"img/bikes/Victory-customs2.jpg",
+		"img/bikes/Victory-customs3.jpg"
+	],
+	"engine": {
+		"type": "Gemela 4-Tiempos",
+		"details": "Cilindros-V",
+		"cylinder": "1731.0cc",
+		"transmission": "Cadena",
+		"starter": "Manual"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1647mm (h)",
+			"2337mm (l)",
+			"658mm (w)"
+		],
+		"weight": "300.0kg"
+	}
+
+}

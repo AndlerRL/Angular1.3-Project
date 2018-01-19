@@ -1,0 +1,30 @@
+{
+	"id": "DEP-002",
+	"model": "CBR 250 RR",
+	"fabriquer": "Honda",
+	"country": "Korea del Sur",
+	"year": "2017",
+	"category": "Moto Cubierta",
+	"description": "Honda todavía no se ha posicionado en este segmento de las motos para el A2, pero sí nos han llegado noticias del mercado asiático que nos podrían dar algunas claves de lo que podría ser su entrada en Europa, con esta nueva deportiva con la que se estuvo dando unas vueltas Marc Márquez antes del GP de Malasia. La moto es muy deportiva y marcará toda una referencia en el segmento, rivalizando por ejemplo con la Kawasaki Ninja 250 de la que también se habla de su nueva versión.",
+	"images": [
+		"img/bikes/Honda-deportivas1.jpg",
+		"img/bikes/Honda-deportivas2.jpg",
+		"img/bikes/Honda-deportivas3.jpg"
+	],
+	"engine": {
+		"type": "Gemela 4-Tiempos",
+		"details": "Cilindros Horizontal",
+		"cylinder": "249.7cc",
+		"transmission": "Cadena Cubierta",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1098mm (h)",
+			"2060mm (l)",
+			"724mm (w)"
+		],
+		"weight": "168.0kg"
+	}
+
+}

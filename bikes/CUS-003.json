@@ -1,0 +1,29 @@
+{
+	"id": "CUS-003",
+	"model": "Intruder C 1800 R",
+	"fabriquer": "Suzuki",
+	"country": "Japón",
+	"year": "2015",
+	"category": "Moto Cubierta",
+	"description": "Ande o no ande, caballo grande. La moto custom Suzuki Intruder, es una delicia para los amantes de las cruiser de grandes dimensiones con una estética clásica. Las motocicletas cruiser son aquellas que buscan la comodidad en la postura, con la espalda erguida y los pies delante del cuerpo. Precisamente este es un claro ejemplo de este tipo de motos de carretera, ya que gracias a su sistema de frenada combinada con tres discos, las modernas suspensiones, la transmisión final por cardán y los anchos neumáticos radiales está pensada para realizar grandes trayectos de la forma más cómoda y relajada.",
+	"images": [
+		"img/bikes/Suzuki-customs1.jpg",
+		"img/bikes/Suzuki-customs2.jpg",
+		"img/bikes/Suzuki-customs3.jpg"
+	],
+	"engine": {
+		"type": "Gemela 4-Tiempos",
+		"details": "Cilindros-V",
+		"cylinder": "1783.0cc",
+		"transmission": "Cadena",
+		"starter": "Manual"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1150mm (h)",
+			"2580mm (l)",
+			"985mm (w)"
+		],
+		"weight": "380.0kg"
+	}
+}

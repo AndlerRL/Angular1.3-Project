@@ -1,0 +1,29 @@
+{
+	"id": "URB-003",
+	"model": "Versys-X 300",
+	"fabriquer": "Kawasaki",
+	"country": "Japón",
+	"year": "2014",
+	"category": "Moto Desnuda",
+	"description": "La más pequeña de la gama Versys es una gran moto para los poseedores del carnet A-2 que buscan una moto con una estética llamativa y que les permita realizar alguna escapada ocasional lejos del asfalto. Para ello esta trail dispone de unas suspensiones de largo recorrido, con una horquilla convencional de 41 mm de diámetro y un monoamortiguador trasero con botella separada que no ofrecen posibilidad de regulación alguna.",
+	"images": [
+		"img/bikes/Kawasaki-urbanas1.jpg",
+		"img/bikes/Kawasaki-urbanas2.jpg",
+		"img/bikes/Kawasaki-urbanas3.jpg"
+	],
+	"engine": {
+		"type": "Singular 4-Tiempos",
+		"details": "Horizontal Cylinder",
+		"cylinder": "296.0cc",
+		"transmission": "Cadena Sellada",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1015mm (h)",
+			"1988mm (l)",
+			"698mm (w)"
+		],
+		"weight": "165.0kg"
+	}
+}

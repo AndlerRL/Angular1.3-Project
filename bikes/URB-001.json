@@ -1,0 +1,30 @@
+{
+	"id": "URB-002",
+	"model": "BN 302",
+	"fabriquer": "Benelli",
+	"country": "Italia",
+	"year": "2016",
+	"category": "Moto Desnuda",
+	"description": "Elegante y agresivo, el BN 302 recompensa a su ciclista con suspensión Benelli, control excepcional del embrague, motor de dos cilindros en línea DOHC de cuatro válvulas y diseño ergonómico cómodo. El fácil de montar carácter y el frenado seguro, hace que esta la moto perfecta para un viaje diario, comprimir a través de la ciudad y fuera de la ciudad gira.",
+	"images": [
+		"img/bikes/BENELLI-BN-302-1.jpg",
+		"img/bikes/BENELLI-BN-302-2.jpg",
+		"img/bikes/BENELLI-BN-302-3.jpg"
+	],
+	"engine": {
+		"type": "Gemela 4-Tiempos",
+		"details": "Horizontal Cylinder",
+		"cylinder": "323.0cc",
+		"transmission": "Cadena",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1120mm (h)",
+			"2115mm (l)",
+			"800mm (w)"
+		],
+		"weight": "185.0kg"
+	}
+
+}

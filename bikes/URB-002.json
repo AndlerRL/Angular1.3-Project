@@ -1,0 +1,30 @@
+{
+	"id": "URB-002",
+	"model": "Scrambler Sixty2",
+	"fabriquer": "Ducati",
+	"country": "Italia",
+	"year": "2014",
+	"category": "Moto Desnuda",
+	"description": "Con esta nueva moto de la marca Scrambler específica para el carnet A-2, Ducati quiere hacer llegar la filosofía de moda a nuevos públicos más juveniles y que no buscan las altas prestaciones sino la facilidad y docilidad de una moto atractiva con la que moverse sin condicionamientos en cualquier terreno, siendo siempre el centro de atención por su atractiva imagen.",
+	"images": [
+		"img/bikes/Ducati-urbanas1.jpg",
+		"img/bikes/Ducati-urbanas2.jpg",
+		"img/bikes/Ducati-urbanas3.jpg"
+	],
+	"engine": {
+		"type":  "Bicilíndrico 6-Tiempos",
+		"details": "Horizontal Cylinder",
+		"cylinder": "399.0cc",
+		"transmission": "Cadena",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1150mm (h)",
+			"2145mm (l)",
+			"845mm (w)"
+		],
+		"weight": "183.0kg"
+	}
+
+}

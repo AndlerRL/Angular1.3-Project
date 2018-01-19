@@ -1,0 +1,30 @@
+{
+	"id": "CUS-001",
+	"model": "Chief Classic",
+	"fabriquer": "Indian",
+	"country": "Estados Unidos",
+	"year": "2017",
+	"category": "Moto Cubierta",
+	"description": "La marca Indian, una de las firmas de motos más antigua de Estados Unidos nacida en 1901, vuelve al pasado con el resurgimiento de la moto Chief Classic. Dentro de la gama 2014, aparece esta cruiser potente, modelada y construida según los rasgos propios del estilo Indian. Una moto impactante que mezcla la tradición de la marca con la nueva tecnología de nuestros días convirtiéndolo en la combinación ideal.",
+	"images": [
+		"img/bikes/Indian-customs1.jpg",
+		"img/bikes/Indian-customs2.jpg",
+		"img/bikes/Indian-customs3.jpg"
+	],
+	"engine": {
+		"type": "Dual 6-Tiempos",
+		"details": "Thunder Stroke 111",
+		"cylinder": "1811.0cc",
+		"transmission": "Manual",
+		"starter": "Eléctrico"
+	},
+	"sizeAndWeight": {
+		"size": [
+			"1176mm (h)",
+			"2630mm (l)",
+			"1000mm (w)"
+		],
+		"weight": "341.0kg"
+	}
+
+}

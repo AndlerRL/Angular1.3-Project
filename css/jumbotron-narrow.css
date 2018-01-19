@@ -1,0 +1,460 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: "Podkova";
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Podkova";
+  font-weight: normal;
+  color: #333;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+    opacity: 1;
+  }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background: radial-gradient(circle, rgba(40,50,60, 1) 30%, rgba(45,55,65, 1) 60%,
+    rgba(50,60,70, 1) 90%, rgba(55,65,75, 1) 120%, rgba(60,70,80, 1) 130%);
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.7);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,0.7);
+  height: 4em;
+  padding: 0.5em;
+  margin: 0;
+  top: 0;
+  position: sticky;
+  border-collapse: collapse;
+  display: block;
+}
+
+.blog-masthead-filter {
+  height: 4em;
+  padding: 0;
+  margin: 0 auto;
+  top: 3.2em;
+  position: sticky;
+  border-collapse: collapse;
+  display: block;
+  text-align: center;
+  width: 50%;
+  align-content: center;
+  -webkit-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
+}
+
+.blog-masthead-filter:hover {
+  top: 6em;
+  opacity: 0.8;
+  -webkit-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #A1FF8D;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+.blog-body {
+  left: 50px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  position: inherit;
+  float: none;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+#details {
+  top: 8em;
+  background-color: #FFFFFF;
+  position: inherit;
+  float: none;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+.blog-info-header {
+  background: linear-gradient(to top, rgba(40,50,60, 1) 4%, rgba(45,55,65, 1) 6%,
+    rgba(50,60,70, 1) 8%, rgba(55,60,70, 1) 10%, rgba(99,99,99, 1) 100%);
+  padding-top: 15px;
+  margin-top: 4em;
+  height: 1px;
+  -webkit-box-shadow: 0 3px 8px #111;
+          box-shadow: 0 3px 8px #111;
+  -webkit-transition: color 0.7s;
+          transition: color 0.7s;
+  opacity: 0;
+}
+
+#aboutUs:hover {
+  color: #707070;
+  font-size: 1.5em;
+  opacity: 0.9;
+  -webkit-transition: color 0.7s, font-size 0.2s;
+          transition: color 0.7s, font-size 0.2s;
+  -webkit-text-shadow: 0 0 15px #fff;
+          text-shadow: 0 0 15px #fff;
+
+}
+
+h1:hover {
+  font-size: 2.1em;
+  -webkit-transition: font-size 0.3s;
+          transition: font-size 0.3s;
+}
+
+h1 {
+  -webkit-box-shadow: 0 0 8px #fff;
+          box-shadow: 0 0 8px #fff;
+  -webkit-transition: font-size 0.3s;
+          transition: font-size 0.3s;
+}
+
+.body-info {
+  text-align: left;
+  position: static;
+  display: none;
+  color: #B8E9E5;
+}
+
+.main-body-container {
+  width: 100%;
+  background: #999950;
+  width: 100%;
+  height: 100%;
+  position: static;
+  box-shadow: inset 0 6px 10px -4px #333;
+}
+
+#aboutUs h2{
+  height: 100px;
+  text-align: center;
+  position: static;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin: 1em 1em;
+  height: 40px;
+  opacity: 0.7;
+  -webkit-transition: color 1s, font-size 0.7s;
+          transition: color 1s, font-size 0.7s;
+  -webkit-text-shadow: 0 0 5px 3px #fff;
+          text-shadow: 0 0 5px 3px #fff;
+}
+
+button {
+  border: none transparent;
+  background: none;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 auto;
+  position: static;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.bike-images {
+  background-color: white;
+  width: 550px;
+  height: 400px;
+  overflow: hidden;
+  position: static;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+.home-images {
+  width: 550px;
+  height: 375px;
+  position: static;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+.bikes {
+  list-style: none;
+}
+
+
+img.bike {
+  margin-right: 3em;
+  margin-bottom: 2em;
+  padding: 2em;
+  height: inherit;
+  width: inherit;
+  position: static;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+img.bike:first-child {
+  display: block;
+}
+
+img.home {
+  margin-right: 3em;
+  margin-bottom: 2em;
+  padding: 2em;
+  height: 400px;
+  width: 380px;
+  position: static;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+img.home:first-child {
+  display: block;
+}
+
+
+ul.bike-thumbs {
+  margin: 0;
+  list-style: none;
+  position: static;
+}
+
+ul.bike-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  position: static;
+}
+
+ul.bike-thumbs img {
+  height: 110px;
+  width: 110px;
+  padding: 1em;
+  position: relative;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+ul.bike-thumbs img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 12px #111;
+          box-shadow: 0 0 12px #111;
+}
+
+ul.home-thumbs {
+  margin: 0 auto;
+  list-style: none;
+  position: static;
+}
+
+ul.home-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0.5em 0.5em;
+  position: static;
+}
+
+ul.home-thumbs img {
+  height: 120px;
+  width: 120px;
+  padding: 0;
+  margin: 0 auto;
+  position: static;
+  -webkit-box-shadow: 0 0 8px #111;
+          box-shadow: 0 0 8px #111;
+}
+
+ul.home-thumbs img:hover {
+  cursor: pointer;
+}
+
+ul.specs {
+  clear: both;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 350px;
+  margin: 0 auto;
+  padding: 0;
+  vertical-align: top;
+  position: static;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+.bckGround {
+  opacity: 1;
+  left: 0;
+  margin: auto;
+  padding: 0;
+  border-collapse: collapse;
+  float: none;
+}
+
+.bckGround img {
+  margin-top: -2em;
+  width: 100%;
+  height: 100%;
+}
+
+.logo img{
+  position: relative;
+  width: 50px;
+  height: 43px;
+  float: right;
+  margin-left: 8px;
+  top: -11px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
