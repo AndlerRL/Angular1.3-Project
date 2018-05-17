@@ -2,7 +2,7 @@
 
 var bikeAppCtrl= angular.module('bikeAppCtrl', []);
 
-bikeAppCtrl.controller('ctrlInicio', ['$scope', 'Bike',
+bikeAppCtrl.controller('ctrlHome', ['$scope', 'Bike',
 	function($scope, Bike,) {
 		$scope.bikes= Bike.query();
 		$scope.orderProp= 'model';

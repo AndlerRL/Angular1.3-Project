@@ -5,13 +5,13 @@ var bikeApp= angular.module('bikeApp', [
 	]);
 
 bikeApp.config(['$routeProvider', function($routeProvider) {
-	$routeProvider.when('/bikes', {
-		templateUrl: 'nav/inicio.html',
-		controller: 'ctrlInicio'
+	$routeProvider.when('/', {
+		templateUrl: './nav/home.html',
+		controller: 'ctrlHome'
 	}).when('/bikes/:bikeId', {
-		templateUrl: 'nav/bikesDetails.html',
+		templateUrl: './nav/bikesDetails.html',
 		controller: 'ctrlDetails'
 	}).otherwise({
-		redirectTo: '/bikes'
-	});
+		redirectTo: '/'
+	})
 }]);

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div class="blog-masthead">
+        <div class="container">
+            <nav class="blog-nav">
+                <a href="#" class="blog-nav-item active">Home</a>
+                <a href="#bikes" class="blog-nav-item">Bikes Exhibition</a>
+                <a href="#" class="blog-nav-item logo" style="float: right; margin-right: none">Lonely Road 2017
+                    <img src="img/nav-bar-logo.jpg"></img>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="blog-header bckGround bike-home">
+        <img src="img/inicio-head.jpg">
+        <div class="container">
+            <h2 class="blog-title">Lonely Road Fair 2017</h2>
+            <p class="lead blog-description">Official Anual Motocicle Fair of the Region.
+                <br> Welcome to our fair website! As our first year of our bikes presentation, we shall have available the best
+                motocicles with some of our providers. As a first year, we shall have 3 standard bikes types and a show up
+                of them. Do not leave this out!
+            </p>
+
+            <center>
+                <button id="aboutUs">
+                    <h2 align="center">
+                        About Us
+                    </h2>
+                    <img src="img/png/glyphicons-602-chevron-down.png" style="width: 30px; height: 20px; opacity: 1;">
+                </button>
+            </center>
+        </div>
+
+
+        <div class="main-body-container" align="center">
+            <br>
+            <div class="container blog-info-header" align="center">
+                <br>
+                <div class="container body-info row">
+                    <br>
+                    <div class="blog-main">
+                        <div class="home-images">
+                            <img ng-src="{{img}}" class="thumbnail Home" ng-repeat="img in home" ng-class="{active: mainImageUrl==img}">
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="blog-main thumbnail-home">
+                        <ul class="home-thumbs">
+                            <li ng-repeat="img in home">
+                                <img ng-src="{{img}}" ng-click="setHomeImg(img)" style="margin: 0 auto; padding: 0; position: static; box-shadow: 0 0 7px #111;">
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="body-info blog-main">
+                        <ul class="blog-main bikes">
+                            <li class="bike-listing">
+                                <p>
+                                    The Lonely Road it has been a proyect thought for our bikes fans; Show ups, activities, food are some aspects that we shall
+                                    have at our visitor's disposition! As tradition that we desire to build among this fair,
+                                    we will be available in this next month of January, opening the year with the world's
+                                    most refreshing bikes, remembering you the passion of them every year.
+                                    <br>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    In just 3 days you will meet the best that we can offer and within this year, we bring you a lot of fun:
+                                    <br>
+                                    <br> On the 1st day, you'll see the entrance of our bikers, making the aperture of the fair
+                                    with fascination races, show up and even the circle of death! And also opening a path
+                                    to the bikes that we will present you for the rest of the fair days.
+                                    <br>
+                                    <br> On the 2nd day, it will arrive our collectionist, better yet, the crazy bikers, whom
+                                    bring presentation of exclusive bikes designs, also, for the collectionist, some authenticies
+                                    that you ever will find in another place.
+                                    <br>
+                                    <br> On the last 3rd day, there will be available higher proffessional league bike runners
+                                    bringing authographs and cheering up our fans. With them, you can join them in a big
+                                    buffet brought not only by us, also for one of our collaborators in thin fair. C'on,
+                                    don't losse this chance and visit us!
+                                    <br>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <br> Nevertheless, the Lonely Road Fair is commemored in memory of Peters Fellstrong, who
+                                    has been a great example for this big collabolators and founder of this magnificent event,
+                                    witch has been develop thanks to him.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="col-sm-6 col-sm-push-1 blog-main">
+                                    <p>
+                                        <br> Peters Fellstrong was a bike runner, daredevil and bike fanatic of the 70's, that
+                                        brough us too much joy on his shows, acrobacies that let the public with pale skin
+                                        and adrenaline on every event that he did. In 1978 had his Platinium Hipper Adrenaline
+                                        Medal for doing one of the most deadly acrobacies of the world, the 'Death jump with
+                                        chains and headed strong-box with a tank full of electric-ninja-sharks', that for
+                                        our generation sound creazy, but terrifying to see. Fellstrong died on the act, but
+                                        before it, he left his legacy in our hearts for decades and inspiration that still
+                                        beating hard.
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="container">
+                                    <br>
+                                    <br>
+                                    <img src="img/random-guy.jpg" style="float: right; padding-right: 2em; width: 400px; height: 300px; position: static; border: 1px solid transparent; border-radius: 4px; box-shadow: 0 0 8px #111; padding: 0.25em;">
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="background: #999950; background-position: static; width: 100%; height: 100%; padding-top: 4em; padding-bottom: 14em; box-shadow: inset 0 0 500px 50px #cccccc4f;">
+        <div class="blog-body blog-main container">
+            <h1 align="center" style="padding: 1em; color: #757575; font-weight: bolder;">About Distributors</h1>
+            <ul class="col-sm-6 col-sm-push-1 blog-main bikes">
+                <br>
+                <br>
+                <li class="bike-listing">
+                    <h1 class="blog-header">American Custom Company</h1>
+                    <p class="blog-main">The American Custom Company provider bring us the best of his custom bikes disposition of the market.
+                        From Iowa, United States had traveled to our fair in order to give is to know the best that they
+                        have available.
+                        <br>
+                        <br> American Custom will give us an amazing bike runners presentation, also a bike parade and acrobacies
+                        in our green area. As a main show for the night, it will be available some gifts that, our fans like
+                        so much!</p>
+                </li>
+                <br>
+                <li class="bike-listing">
+
+                    <h1 class="blog-header">La Vie C'est Une Route S.A</h1>
+                    <p class="blog-main">From France, La Vie C'est Une Route (for his traduction, Life Is A Road) company, bring us the Sport
+                        bike natural beutty at their posession. In their presentation of european motocicles, will give us
+                        a deleitable view and also deglutte their wanderfull gastronomy in their presentations and also bring
+                        us a parade of their bikes with their models.
+                        <br> La Vie C'est Une Route will show up future proyects in mind, and also ECO european bikes prototypes
+                        feeded with mineral oil (as lub) and electrics one with solar pannel chargers. Prepare yourself for
+                        this company, who will light your mind with their ECO design, Don't losse it up!</p>
+                </li>
+
+                <li class="bike-listing">
+
+                    <h1 class="blog-header">Cochelca Company</h1>
+                    <p class="blog-main">The Cochelca provider bring us the best at their dispossition of hte urban specified selected bikes around
+                        the world. From Chapultepec, Mexico will visit us to our fair to give us to know the best that they
+                        have of their motocicles to their latinamerican audience.
+                        <br> Cochelca, a family enterprise who has pass through generation through generation, has avance to
+                        a point to be an high level enterprise and known in a continental level. Will present us motocicles
+                        of newest of the newest, also accesories for our bikes and will bring us incredible payment methods
+                        to our visitors at the fair!</p>
+                </li>
+            </ul>
+            <br>
+
+
+
+            <div class="col-xs-6 col-xs-pull-1 blog-main">
+                <br>
+                <ul class="bikes">
+                    <li class="thumbnail bike-listing">
+                        <img src="img/bikes/custom.jpg">
+                        <p>
+                            <b style="font-size: 1.2em">Custom Motocicles </b>
+                            <br>
+                            <img ng-src="img/png/glyphicons-196-info-sign.png" style="width: 18px; height: 18px; opacity: 0.6; position: relative;"> American Customs CO.</p>
+                        </p>
+                    </li>
+                    <li class="thumbnail bike-listing">
+                        <img src="img/bikes/deportiva.jpg">
+                        <p>
+                            <b style="font-size: 1.2em">Sport Motocicles </b>
+                            <br>
+                            <img src="img/png/glyphicons-196-info-sign.png" style="width: 18px; height: 18px; opacity: 0.6; position: relative;"> La Vie C'est une Route S.A.</p>
+                        </p>
+                    </li>
+                    <li class="thumbnail bike-listing">
+                        <img src="img/bikes/urbana.jpg">
+                        <p>
+                            <b style="font-size: 1.2em">Urban Motocicles </b>
+                            <br>
+                            <img src="img/png/glyphicons-196-info-sign.png" style="width: 18px; height: 18px; opacity: 0.6; position: relative;"> Cochelca CO.</p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <center>
+                <br>
+                <br>
+                <div class="blog-main col-lg-8">
+                    <div style="width: 100%; margin-left: 25%">
+                        <h1 style="padding: 1em; color: #757575; font-weight: bolder; margin-left: 11%" id="bikes">Bike Exhibition</h1>
+
+                        <div class="blog-masthead-filter left">
+                            <div class="thumbnail-filter" style="box-shadow: 0 0 8px #505050; width: 415px;">
+                                <form class="form-horizontal" role="form" style="margin: 0 auto; width: 325px;">
+                                    <div class="form-group">
+                                        <label for="name" class="col-sm-1 col-sm-pull-1 control-label">Filter</label>
+                                        <div class="col-sm-10 col-sm-push-2">
+                                            <input type="text" class="form-control" ng-model="query">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group" style="display: inline-table;">
+                                        <div class="col-xs-11 col-xs-pull-1">
+                                            <label class="col-sm-5 col-sm-pull-2">Organize</label>
+                                            <label class="col-xs-6 col-xs-pull-1 control-label">Orginize by:</label>
+                                        </div>
+
+                                        <div class="col-xs-12 col-xs-pull-1" style="display: inline-flex;">
+                                            <select class="form-control" ng-model="reverse" style="width: 100px; margin-right: 7em;">
+                                                <option value="false" selected="selected">↑ A - Z</option>
+                                                <option value="true">↓ Z - A</option>
+                                            </select>
+
+                                            <select class="form-control" ng-model="orderProp" style="width: 200px;">
+                                                <option value="model" selected>Alphabetic</option>
+                                                <option value="year">Newest</option>
+                                                <option value="category">Cathegory</option>
+                                                <option value="type">Bike Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <ul class="bikes">
+                            <li ng-repeat="bike in bikes | filter:query | orderBy:orderProp:reverse" class="thumbnail bike-listing">
+                                <a href="#/bikes/{{bike.id}}" class="thumb">
+                                    <img ng-src="{{bike.imageUrl}}">
+                                </a>
+                                <a href="#/bikes/{{bike.id}}">{{bike.fabriquer}} {{bike.model}}, {{bike.year}}</a>
+                                <p>
+                                    <img src="img/png/glyphicons-196-info-sign.png" style="width: 18px; height: 18px; opacity: 0.6;position: relative;"> {{bike.type}}
+                                    <br> {{bike.snippet}}
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <footer class="mastfoot">
+        <p><small>Website Developed by <a href="mailto:andre.rlucas@outlook.com" style="color: tomato">@Andler</a>. © 2017 All Rigths Reserved.</small></p>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#aboutUs").click(function (e) {
+                e.preventDefault();
+                var leInfo = $(".blog-info-header");
+                leInfo.animate({
+                    height: "100%"
+                }, 750);
+                leInfo.animate({
+                    opacity: "1"
+                }, 1000);
+                $(".body-info").show(750);
+                leInfo.addClass('show-blog-info-header');
+                $(this).undelegate();
+
+                if ($(".blog-info-header").hasClass('show-blog-info-header')) {
+                    $(this).click(function (e) {
+                        e.preventDefault();
+                        $(".blog-info-header").animate({
+                            height: "0",
+                            display: "none",
+                            opacity: "0"
+                        }, 750);
+                        leInfo.removeClass('show-blog-info-header');
+                        $(".body-info").hide(500);
+                        $(this).undelegate();
+                    });
+                }
+            });
+
+            $('a[href="#bikes"]').click(function () {
+                $(this).addClass('active');
+                $("a[href='#']").removeClass('active');
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>
